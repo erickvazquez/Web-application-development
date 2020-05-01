@@ -1,0 +1,12 @@
+create database usuarios;
+use usuarios;
+ 
+create table usuarios(
+id_usuario int not null,
+nombre_usuario varchar(100) null,
+clave varchar(100) null, 
+primary key(id_usuario));
+
+insert into usuarios (id_usuario, nombre_usuario, clave) values (1, 'ivan', 1234);
+insert into usuarios (id_usuario, nombre_usuario, clave) values (2, 'erick', 1234);
+insert into usuarios (id_usuario, nombre_usuario, clave) values (3, 'josemanuel', 1234);

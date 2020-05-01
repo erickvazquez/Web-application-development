@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<examenes>
+  <id id="Examen 1">
+    <pregunta id="Pregunta 1"/>
+    <pregunta id="Pregunta 2"/>
+
+  </id>
+  
+  <id id="Examen 5">
+    <pregunta id="Pregunta 1"/>
+    <pregunta id="Pregunta 3"/>
+  </id>
+
+<id id="ExamenX">
+<pregunta id="Pregunta 1"/>
+<pregunta id="Pregunta 6"/>
+<pregunta id="Pregunta con Imagen"/>
+</id>
+
+<id id="ExamenPruebaS">
+<pregunta id="Instrumento"/>
+<pregunta id="Misfits"/>
+</id>
+<id id="Examen prueba">
+<pregunta id="Oso"/>
+<pregunta id="Vegeta"/>
+</id>
+<id id="ExamenPrueba2">
+<pregunta id="Pinguino2"/>
+<pregunta id="Oso"/>
+<pregunta id="Vegeta"/>
+</id>
+<id id="ExamenJson">
+<pregunta id="Dia"/>
+<pregunta id="Oso"/>
+</id>
+</examenes>

@@ -1,0 +1,68 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.multipart.maxSize" value="50000000" />
+    
+    <package name="Actions" extends="struts-default"> 
+        
+          <action name="LoginAction2" class="Actions.LoginAction">
+            <result name="OK">/Bienvenida.jsp</result>
+            <result name="errorUsuario">/Inicio.jsp</result>
+         </action>  
+         
+         <action name="CrearPreguntaAction2" class="Actions.CrearPreguntaAction">
+            <result name="OK" type="chain">TablaPreguntasAction2</result>
+        </action> 
+         
+         <action name="TablaPreguntasAction2" class="Actions.TablaPreguntasAction">
+            <result name="OK">/TablaPreguntas.jsp</result>
+        </action>  
+        
+        <action name="BorrarPreguntaAction2" class="Actions.BorrarPreguntaAction" >
+            <result name="OK" type="chain">TablaPreguntasAction2</result>
+        </action> 
+        
+         <action name="VerPreguntaAction2" class="Actions.VerPreguntaAction">
+            <result name="OK">/VerPregunta.jsp</result>
+        </action> 
+        
+        <action name="EditarPreguntaAction2" class="Actions.EditarPreguntaAction">
+            <result name="OK">/EditarPregunta.jsp</result>
+        </action>  
+        
+        <action name="TablaExamenesAction2" class="Actions.TablaExamenesAction">
+            <result name="OK">/TablaExamenes.jsp</result>
+        </action> 
+        
+        <action name="SubirArchivoAction2" class="Actions.SubirArchivoAction">
+            <result name="OK" type="chain">TablaPreguntasAction2</result>
+        </action>
+        
+        <action name="EscribirExamenAuxAction2" class="Actions.EscribirExamenAuxAction">
+            <result name="OK">CrearExamen.jsp</result>
+        </action> 
+        
+        <action name="EscribirExamenAction2" class="Actions.EscribirExamenAction">
+            <result name="OK" type="chain">TablaExamenesAction2</result>
+        </action> 
+        
+        <action name="BorrarExamenAction2" class="Actions.BorrarExamenAction">
+            <result name="OK" type="chain">TablaExamenesAction2</result>
+        </action> 
+        
+        <action name="EditarExamenAction2" class="Actions.EditarExamenAction">
+            <result name="OK">/EditarExamen.jsp</result>
+        </action> 
+      
+      <action name="EvaluarPreguntaAction2" class="Actions.EvaluarPreguntaAction">
+            <result name="OK">/EvaluarPregunta.jsp</result>
+        </action> 
+        
+        <action name="EvaluarExamenAction2" class="Actions.EvaluarExamenAction">
+            <result name="OK">/ResultadoExamen.jsp</result>
+        </action> 
+        
+    </package>
+</struts>

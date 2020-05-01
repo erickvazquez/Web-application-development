@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<preguntas>
+  <id id="Pregunta 1">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta?</pregunta>
+    <respuesta correcta="true" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="false" id="3">Algo3</respuesta>
+  </id>
+  <id id="Pregunta 2">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta 2?</pregunta>
+    <respuesta correcta="true" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="false" id="3">Algo3</respuesta>
+  </id>
+  <id id="Pregunta 3">
+  <multimedia/>
+    <pregunta tipo="multiChoice">Pregunta 3?</pregunta>
+    <respuesta correcta="false" id="1">Algo</respuesta>
+    <respuesta correcta="false" id="2">Algo2</respuesta>
+    <respuesta correcta="true" id="3">Algo3</respuesta>
+  </id>
+  
+<id id="prueba2">
+  <multimedia/>
+<pregunta tipo="multiChoice">ABR</pregunta>
+<respuesta correcta="false" id="1">Debe ser false</respuesta>
+<respuesta correcta="false" id="2">Debe ser false</respuesta>
+<respuesta correcta="false" id="3">Debe ser false</respuesta>
+<respuesta correcta="true" id="4">Debe ser true</respuesta>
+</id>
+
+
+
+<id id="Pregunta 6">
+  <multimedia/>
+<pregunta tipo="multiChoice">Pais de donde eran The Beatles:</pregunta>
+<respuesta correcta="false" id="1">Uruguay</respuesta>
+<respuesta correcta="false" id="2">Espana</respuesta>
+<respuesta correcta="false" id="3">Italia</respuesta>
+<respuesta correcta="false" id="4">Emiratos Arabes Unidos</respuesta>
+<respuesta correcta="false" id="5">Paises Bajos</respuesta>
+<respuesta correcta="false" id="6">Mexico</respuesta>
+<respuesta correcta="true" id="7">Inglaterra</respuesta>
+<respuesta correcta="false" id="8">Alemania</respuesta>
+</id>
+<id id="Pregunta con Imagen">
+<multimedia>goku.jpg</multimedia>
+<pregunta tipo="multiChoice">Como se llama este personaje?</pregunta>
+<respuesta correcta="false" id="1">Vegeta</respuesta>
+<respuesta correcta="false" id="2">Trunks</respuesta>
+<respuesta correcta="true" id="3">Goku</respuesta>
+<respuesta correcta="false" id="4">Piccolo</respuesta>
+<respuesta correcta="false" id="5">Gohan</respuesta>
+<respuesta correcta="false" id="6">Mr. Satan</respuesta>
+</id>
+<id id="Pregunta con Musica">
+<multimedia>Heroes.mp3</multimedia>
+<pregunta tipo="multiChoice">Quien canta esta cancion?</pregunta>
+<respuesta correcta="false" id="1">Ariana Grande</respuesta>
+<respuesta correcta="false" id="2">Imagine Drangons</respuesta>
+<respuesta correcta="true" id="3">David Bowie</respuesta>
+<respuesta correcta="false" id="4">Frank Sinatra</respuesta>
+<respuesta correcta="false" id="5">Rammstein</respuesta>
+<respuesta correcta="false" id="6">La Tuna de ESCOM</respuesta>
+</id>
+<id id="Pregunta con Video">
+<multimedia>somebodytolove.mp4</multimedia>
+<pregunta tipo="multiChoice">De que banda es esta cancion?</pregunta>
+<respuesta correcta="false" id="1">Banda MS</respuesta>
+<respuesta correcta="false" id="2">Imagine Drangons</respuesta>
+<respuesta correcta="true" id="3">Queen</respuesta>
+<respuesta correcta="false" id="4">Kansas</respuesta>
+<respuesta correcta="false" id="5">Rammstein</respuesta>
+<respuesta correcta="false" id="6">Scorpions</respuesta>
+</id>
+
+
+<id id="Numero romano">
+<multimedia/>
+<pregunta tipo="multiChoice">Â¿CuÃ¡l es el nÃºmero 10 en Romano?</pregunta>
+<respuesta correcta="false" id="1">I</respuesta>
+<respuesta correcta="true" id="2">X</respuesta>
+<respuesta correcta="false" id="3">III</respuesta>
+<respuesta correcta="false" id="4">V</respuesta>
+</id>
+<id id="Comegalletas">
+<multimedia>descarga.jpg</multimedia>
+<pregunta tipo="multiChoice">Â¿Es este el comegalletas?</pregunta>
+<respuesta correcta="true" id="1">True or False</respuesta>
+</id>
+</preguntas>

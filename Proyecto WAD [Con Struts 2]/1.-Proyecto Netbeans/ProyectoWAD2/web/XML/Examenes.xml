@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<examenes>
+  <id id="Examen 1">
+    <pregunta id="Pregunta 1"/>
+    <pregunta id="Pregunta 2"/>
+
+  </id>
+  <id id="Examen 4">
+    <pregunta id="Pregunta 2"/>
+    <pregunta id="Pregunta 3"/>
+  </id>
+  <id id="Examen 5">
+    <pregunta id="Pregunta 1"/>
+    <pregunta id="Pregunta 3"/>
+  </id>
+<id id="Examen prueba">
+<pregunta id="Pregunta 6"/>
+<pregunta id="Pregunta con Imagen"/>
+<pregunta id="Pregunta con Musica"/>
+<pregunta id="Pregunta con Video"/>
+</id>
+<id id="ExamenX">
+<pregunta id="Pregunta 1"/>
+<pregunta id="Pregunta 6"/>
+<pregunta id="Pregunta con Imagen"/>
+</id>
+</examenes>
